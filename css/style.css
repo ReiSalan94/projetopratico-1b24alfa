@@ -12,6 +12,8 @@ section {
     display: inline;
 }
 
+
+
 header {
     padding: 20px 0;
 }
@@ -52,7 +54,52 @@ header {
     display: inline-block;
     width: 30%;
     margin: 1%;
+    border: 2px solid #f2f2f2;
 }
 .item img{
+    width: 98%;
+    padding: 1%;
+}
+ .item .titulo, .item .preco{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+}
+.btn{
+    background-color: #dc0502;
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px; 
+}
+.item a{
+    text-decoration: none;
+}
+footer{
+    background-color: #dc0502;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
+}
+footer label, footer input,
+ footer textarea{
     width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+footer form{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.whats{
+    background-color: green;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    right: 150px;
+    padding: 20px;
 }
