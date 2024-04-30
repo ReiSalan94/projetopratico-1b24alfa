@@ -103,3 +103,24 @@ footer form{
     right: 150px;
     padding: 20px;
 }
+.sobre{
+    font-size: 22px;
+    line-height: 22px;
+}
+.sobre p, .sobre img {
+    width: 46%;
+    display: inline-block;
+    padding: 1%;
+}
+.sobre h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+.sobre p{
+    float: left;
+    text-align: justify;
+}
+.sobre img{
+    border-radius: 30px;
+}
